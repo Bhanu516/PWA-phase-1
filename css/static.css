@@ -1,0 +1,85 @@
+body{
+    background:#9B59B6;
+  text-align: center;
+}
+.MAIN{
+    display: flex;
+  margin: 2%;
+  padding: 2%;
+    /* border-radius: 6%; */
+}
+.LEFT{
+  background:#48C9B0;
+  width: 30%;
+  height: 60%;
+  padding: 3%;
+  margin: 3%;
+  /* border-radius: 4%; */
+  text-align: center;
+  
+}
+.RIGHT{
+  background:#F8C471;
+  width: 70%;
+  height: 60%;
+  padding: 1%;
+  margin: 3%;
+  /* border-radius: 4%; */
+  text-align: left;
+}
+img{
+  width: 100%;
+  height: 50%;
+}
+table{
+  width: 100%;
+}
+table,th,td{
+  border: 1px solid green;
+      /* font-size: 16px; */
+font-style: italic;
+}
+@media screen and (max-width:767px) {
+.MAIN{
+  flex-wrap:wrap;
+  background: #E74C3C;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+}
+.LEFT{
+  width:100%;
+  padding: 0%;
+  margin: 0.5%;
+  text-align: center;
+}
+.RIGHT{
+  width: 100%;
+  padding: 0%;
+  margin: 0.5%;
+}
+table {
+  font-size: 12px;
+}
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+.MAIN{
+     flex-wrap:wrap;
+  width: 100%;
+  background: #5F6A6A;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+}
+.LEFT{
+  width: 25%;
+  padding: 0%;
+  margin: 0%;
+text-align: center;
+}
+.RIGHT{
+  width: 70%;
+  padding: 0%;
+  margin: 1%;
+}
+}

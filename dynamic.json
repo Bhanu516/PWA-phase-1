@@ -1,0 +1,40 @@
+{
+  "profile":{
+    "image":"images/race car.jpg",
+    "name":"Bhanu prakash",
+    "designation":"student",
+    "mobile":"9876543210",
+    "email":"csemits123@gmail.com"
+  },
+  "carerr":{
+    "info":"to work hard & get good name"
+  },
+  "education":[{
+    "qualification":"b.tech",
+    "institution":"mits",
+    "percentage":"82%",
+    "yop":"2021"
+  },
+  {
+    "qualification":"Intermediate",
+    "institution":"kjc",
+    "percentage":"88%",
+    "yop":"2017"
+  },
+  {
+    "qualification":"SSC",
+    "institution":"kps",
+    "percentage":"77%",
+    "yop":"2015"
+  }
+],
+"skills":[{
+  "name":"web_technologies",
+  "info":["html","css","js"]
+},
+{
+  "name":"database",
+  "info":["jdbc","firebase","sql","dbms"]
+}
+]
+}

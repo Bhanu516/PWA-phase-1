@@ -1,0 +1,48 @@
+body{
+  background: #808000;
+  padding: 2%;
+  margin:2%;
+  text-align: center;
+}
+.parent{
+  border:  2px solid red;
+  background: #5D6D7E;
+  display: flex;
+  justify-content:center;
+  margin: 2%;
+  padding: 2%;
+    border-radius: 5%;
+}
+.child{
+  border:  2px solid red;
+  background:#58D68D;
+  width: 30%;
+  padding: 3%;
+  margin: 3%;
+  border-radius: 5%;
+
+}
+img{
+  width: 100%;
+    height: 60%;
+}
+.h1{
+  color:#5B2C6F;
+  font-style: oblique;
+}
+@media screen and (max-width:767px) {
+.parent{    flex-wrap:wrap;
+  background: #F0B27A;
+}
+.child{
+  width: 100%;
+}
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+.parent{    flex-wrap:wrap;
+  background: #5D6D7E;
+}
+.child{
+  width: 35%;
+}
+}
